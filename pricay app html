@@ -1,0 +1,73 @@
+Privacy Policy for Payment Speaker Nepal
+
+Effective Date: 2026-11-24
+App Name: Payment Speaker Nepal
+Package Name: com.speaker.speaknotification
+Contact Email: bibekmac@gmail.com.
+
+1. Overview
+
+Payment Speaker Nepal ("the App") is developed to Help users. The App helps users hear incoming payment and app notifications spoken aloud using Android's Text-to-Speech (TTS) engine.
+
+We are committed to protecting your privacy. The App operates entirely offline on your device. It does not request internet access (INTERNET permission), does not create user accounts, does not display ads, does not use third-party analytics or tracking SDKs, and does not collect, upload, sell, or share your personal data or notification content with us or any third party.
+
+2. Information the App Accesses and Processes
+
+To provide its core functionality, the App accesses and processes the following information solely on your device:
+
+Notification Content (via Android Notification Access): When you explicitly grant Notification Access in Android Settings, the App reads incoming notifications (app package name, app label, notification title, notification text/description, and timestamp) so it can apply your chosen filters and read matching notifications aloud.
+Installed App List (Launcher Apps): The App queries installed launcher apps on your device solely so you can choose which apps to include (whitelist) or exclude (blacklist) from being spoken aloud.
+Device Audio & State Information: To respect your smart filter settings, the App checks device state locally—such as ringer/silent mode, Do Not Disturb status, active call audio mode, screen on/off state, connected audio output devices (headphones/Bluetooth), volume levels, and battery optimization status.
+User Preferences & Recorded Notification History:
+Your settings (speech rate, pitch, selected TTS voice, audio channel, quiet hours, smart filters, and app filter lists) are stored locally in the App's private storage.
+Incoming notifications handled by the App are recorded locally in the App's Recorded tab (capped at the most recent 1,000 entries) so you can review, replay, mute an app, or delete entries.
+3. How We Use This Information
+
+All information accessed by the App is used exclusively on your device to:
+
+Read incoming notifications aloud in real time via Android's Text-to-Speech engine.
+Filter notifications according to your settings (such as whitelist/blacklist, Do Not Disturb, Quiet Hours, Silent mode, In-Call pause, Screen Off only, and Headphones only).
+Display a local history of handled notifications for replay and management.
+Keep the notification listener responsive in the background when you enable the optional keep-alive foreground notification.
+4. Permissions Explained
+
+The App only requests permissions required for its features:
+
+Notification Access (BIND_NOTIFICATION_LISTENER_SERVICE): Required core permission granted manually in Android Settings so the App can receive and speak incoming notifications.
+Post Notifications (POST_NOTIFICATIONS): Used to display the optional persistent keep-alive foreground notification (with Pause/Resume and Stop controls) and user-triggered test notifications.
+Foreground Service (FOREGROUND_SERVICE, FOREGROUND_SERVICE_SPECIAL_USE): Used only when you enable the optional keep-alive mode to keep real-time notification reading active without Android terminating the listener in the background.
+Wake Lock (WAKE_LOCK): Briefly keeps the CPU awake while speaking a notification aloud so announcements are not cut off when the screen is off.
+5. Text-to-Speech (TTS) Engine Notice
+
+To convert notification text into spoken audio, the App sends the formatted text to the system Text-to-Speech engine configured on your Android device (such as Google Speech Recognition & Synthesis or another installed TTS engine). The App itself has no network permission; however, if you select a network-based voice in your Android system TTS settings, that system TTS provider may process text according to its own privacy policy. You can choose an offline/local voice in the App or in Android TTS settings.
+
+6. Data Storage, Backups, and Security
+100% Local Processing: All notification content and history remain inside the App's private, sandboxed Android storage on your device.
+No Cloud Backup of Notification History: As configured in our Android backup and data extraction rules, recorded notification history is explicitly excluded from Android Auto Backup and device-to-device transfers. Only your non-sensitive app preferences (such as speech rate, filters, and toggles) are eligible for standard Android backup if enabled on your device.
+No Data Transmission: The App does not declare the INTERNET permission and cannot transmit your data to external servers.
+7. Data Sharing and Third Parties
+We do not sell, rent, trade, or share your personal data or notification content with any third party.
+The App contains no third-party advertising networks, analytics services, or behavioral tracking SDKs.
+8. Data Retention and Your Deletion Rights
+
+Because we do not collect or store any of your data on external servers, you have full, immediate control over all data stored on your device:
+
+Delete Individual Entries: Delete any recorded notification directly from the Recorded tab inside the App.
+Clear All History: Tap Clear in the Recorded tab to immediately and permanently delete all locally recorded notifications.
+Delete All App Data: Clear the App's storage in Android Settings → Apps → Payment Speaker Nepal → Storage → Clear storage, or uninstall the App, which permanently removes all preferences and recorded history.
+Revoke Permissions: You can disable Notification Access or Notification permission at any time in Android Settings.
+9. Children's Privacy
+
+The App is a general-purpose utility intended for merchants and general adult users and is not directed to children under the age of 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children.
+
+10. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes in the App or legal requirements. Any updates will be posted on this page with an updated Effective Date. Continued use of the App after changes take effect indicates your acceptance of the updated policy.
+
+11. Contact Us
+
+If you have any questions, concerns, or requests regarding this Privacy Policy or how Payment Speaker Nepal handles data, please contact us at:
+
+Developer: Bibek Makaju
+Email: Bibek Makaju
+Country: Nepal
